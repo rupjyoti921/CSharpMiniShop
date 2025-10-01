@@ -1,0 +1,15 @@
+D:\SelfLearning\ProjectPractice\CSharpMiniShop\CSharpMiniShop\CSharpMiniShop\bin\Debug\net8.0\CSharpMiniShop.exe
+D:\SelfLearning\ProjectPractice\CSharpMiniShop\CSharpMiniShop\CSharpMiniShop\bin\Debug\net8.0\CSharpMiniShop.deps.json
+D:\SelfLearning\ProjectPractice\CSharpMiniShop\CSharpMiniShop\CSharpMiniShop\bin\Debug\net8.0\CSharpMiniShop.runtimeconfig.json
+D:\SelfLearning\ProjectPractice\CSharpMiniShop\CSharpMiniShop\CSharpMiniShop\bin\Debug\net8.0\CSharpMiniShop.dll
+D:\SelfLearning\ProjectPractice\CSharpMiniShop\CSharpMiniShop\CSharpMiniShop\bin\Debug\net8.0\CSharpMiniShop.pdb
+D:\SelfLearning\ProjectPractice\CSharpMiniShop\CSharpMiniShop\CSharpMiniShop\obj\Debug\net8.0\CSharpMiniShop.GeneratedMSBuildEditorConfig.editorconfig
+D:\SelfLearning\ProjectPractice\CSharpMiniShop\CSharpMiniShop\CSharpMiniShop\obj\Debug\net8.0\CSharpMiniShop.AssemblyInfoInputs.cache
+D:\SelfLearning\ProjectPractice\CSharpMiniShop\CSharpMiniShop\CSharpMiniShop\obj\Debug\net8.0\CSharpMiniShop.AssemblyInfo.cs
+D:\SelfLearning\ProjectPractice\CSharpMiniShop\CSharpMiniShop\CSharpMiniShop\obj\Debug\net8.0\CSharpMiniShop.csproj.CoreCompileInputs.cache
+D:\SelfLearning\ProjectPractice\CSharpMiniShop\CSharpMiniShop\CSharpMiniShop\obj\Debug\net8.0\CSharpMiniShop.sourcelink.json
+D:\SelfLearning\ProjectPractice\CSharpMiniShop\CSharpMiniShop\CSharpMiniShop\obj\Debug\net8.0\CSharpMiniShop.dll
+D:\SelfLearning\ProjectPractice\CSharpMiniShop\CSharpMiniShop\CSharpMiniShop\obj\Debug\net8.0\refint\CSharpMiniShop.dll
+D:\SelfLearning\ProjectPractice\CSharpMiniShop\CSharpMiniShop\CSharpMiniShop\obj\Debug\net8.0\CSharpMiniShop.pdb
+D:\SelfLearning\ProjectPractice\CSharpMiniShop\CSharpMiniShop\CSharpMiniShop\obj\Debug\net8.0\CSharpMiniShop.genruntimeconfig.cache
+D:\SelfLearning\ProjectPractice\CSharpMiniShop\CSharpMiniShop\CSharpMiniShop\obj\Debug\net8.0\ref\CSharpMiniShop.dll
