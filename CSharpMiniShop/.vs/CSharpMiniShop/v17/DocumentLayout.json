@@ -1,12 +1,88 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\SelfLearning\\ProjectPractice\\CSharpMiniShop\\CSharpMiniShop\\CSharpMiniShop\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7E35D106-423A-4760-964A-C8BE83921B66}|CSharpMiniShop.csproj|d:\\selflearning\\projectpractice\\csharpminishop\\csharpminishop\\csharpminishop\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E35D106-423A-4760-964A-C8BE83921B66}|CSharpMiniShop.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E35D106-423A-4760-964A-C8BE83921B66}|CSharpMiniShop.csproj|d:\\selflearning\\projectpractice\\csharpminishop\\csharpminishop\\csharpminishop\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E35D106-423A-4760-964A-C8BE83921B66}|CSharpMiniShop.csproj|solutionrelative:models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E35D106-423A-4760-964A-C8BE83921B66}|CSharpMiniShop.csproj|d:\\selflearning\\projectpractice\\csharpminishop\\csharpminishop\\csharpminishop\\models\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E35D106-423A-4760-964A-C8BE83921B66}|CSharpMiniShop.csproj|solutionrelative:models\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E35D106-423A-4760-964A-C8BE83921B66}|CSharpMiniShop.csproj|d:\\selflearning\\projectpractice\\csharpminishop\\csharpminishop\\csharpminishop\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E35D106-423A-4760-964A-C8BE83921B66}|CSharpMiniShop.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\SelfLearning\\ProjectPractice\\CSharpMiniShop\\CSharpMiniShop\\CSharpMiniShop\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "D:\\SelfLearning\\ProjectPractice\\CSharpMiniShop\\CSharpMiniShop\\CSharpMiniShop\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T08:34:12.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "D:\\SelfLearning\\ProjectPractice\\CSharpMiniShop\\CSharpMiniShop\\CSharpMiniShop\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "Models\\CartItem.cs",
+              "ToolTip": "D:\\SelfLearning\\ProjectPractice\\CSharpMiniShop\\CSharpMiniShop\\CSharpMiniShop\\Models\\CartItem.cs",
+              "RelativeToolTip": "Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T08:33:53.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Rating.cs",
+              "DocumentMoniker": "D:\\SelfLearning\\ProjectPractice\\CSharpMiniShop\\CSharpMiniShop\\CSharpMiniShop\\Models\\Rating.cs",
+              "RelativeDocumentMoniker": "Models\\Rating.cs",
+              "ToolTip": "D:\\SelfLearning\\ProjectPractice\\CSharpMiniShop\\CSharpMiniShop\\CSharpMiniShop\\Models\\Rating.cs",
+              "RelativeToolTip": "Models\\Rating.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T08:33:33.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\SelfLearning\\ProjectPractice\\CSharpMiniShop\\CSharpMiniShop\\CSharpMiniShop\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "D:\\SelfLearning\\ProjectPractice\\CSharpMiniShop\\CSharpMiniShop\\CSharpMiniShop\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T08:33:18.497Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
