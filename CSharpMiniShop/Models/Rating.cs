@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace CSharpMiniShop.Models
 {
-    public class Rating
+    public class rating
     {
-        public double Rate { get; set; }
-        public int Count { get; set; }
+        public double rate { get; set; }
+        public int count { get; set; }
     }
 }

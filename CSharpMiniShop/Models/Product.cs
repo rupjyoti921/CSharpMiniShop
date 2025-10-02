@@ -8,11 +8,11 @@ namespace CSharpMiniShop.Models
 {
     public class Product
     {
-        public int Id { get; set; }
-        public string? Title {  get; set; }
-        public double Price { get; set; }
-        public string? Description { get; set; }
-        public string? Category {  get; set; }
-        public List<Rating>? Ratings { get; set; }
+        public int id { get; set; }
+        public string? title {  get; set; }
+        public double price { get; set; }
+        public string? description { get; set; }
+        public string? category {  get; set; }
+        public rating? rating { get; set; }
     }
 }
