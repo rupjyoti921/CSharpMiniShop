@@ -8,9 +8,9 @@ namespace CSharpMiniShop.Models
 {
     public class Order
     {
-        public int OrderId {  get; set; }
-        public List<CartItem> CartItems { get; set; }
-        public double TotalAmount { get; set; }
-        public string OrderStatus {  get; set; }
+        public long orderId {  get; set; }
+        public List<CartItem> cartItems { get; set; }
+        public double totalAmount { get; set; }
+        public string orderStatus {  get; set; }
     }
 }
