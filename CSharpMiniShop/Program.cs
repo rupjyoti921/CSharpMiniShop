@@ -149,7 +149,26 @@ public class Program
             Console.WriteLine("Enter Total Number of Quantity :");
             int proQuan = int.Parse(Console.ReadLine());
             Console.WriteLine("\nAdding to the Cart...");
-            bool IsSuccess = await cs.AddProduct(products[proID - 1], proQuan);
+            bool IsSuccess;
+            try
+            {
+                IsSuccess = await cs.AddProduct(products[proID - 1], proQuan);
+            }
+            catch (ArgumentOutOfRangeException ex)
+            {
+                Console.WriteLine($"\n*****Status:: Product Failed to Add, Please Enter a valid Product ID*****\n\n");
+                Console.ReadKey();
+                ClearScreen();
+                return;
+            }
+            catch (Exception ex) {
+                Console.WriteLine("\n*****Status:: Product Failed to Add!*****\n\n");
+                Console.ReadKey();
+                ClearScreen();
+                return;
+
+            }
+
             if (IsSuccess)
             {
                 Console.WriteLine("*****Status:: Product Successfully Added*****\n\n");
@@ -157,6 +176,9 @@ public class Program
             else
             {
                 Console.WriteLine("\n*****Status:: Product Failed to Add!*****\n\n");
+                Console.ReadKey();
+                ClearScreen();
+                return;
             }
         }
         else
