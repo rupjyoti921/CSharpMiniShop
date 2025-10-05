@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\SelfLearning\\ProjectPractice\\CSharpMiniShop\\CSharpMiniShop\\CSharpMiniShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E35D106-423A-4760-964A-C8BE83921B66}|CSharpMiniShop.csproj|d:\\selflearning\\projectpractice\\csharpminishop\\csharpminishop\\csharpminishop\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E35D106-423A-4760-964A-C8BE83921B66}|CSharpMiniShop.csproj|solutionrelative:services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7E35D106-423A-4760-964A-C8BE83921B66}|CSharpMiniShop.csproj|d:\\selflearning\\projectpractice\\csharpminishop\\csharpminishop\\csharpminishop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E35D106-423A-4760-964A-C8BE83921B66}|CSharpMiniShop.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E35D106-423A-4760-964A-C8BE83921B66}|CSharpMiniShop.csproj|d:\\selflearning\\projectpractice\\csharpminishop\\csharpminishop\\csharpminishop\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E35D106-423A-4760-964A-C8BE83921B66}|CSharpMiniShop.csproj|solutionrelative:services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E35D106-423A-4760-964A-C8BE83921B66}|CSharpMiniShop.csproj|d:\\selflearning\\projectpractice\\csharpminishop\\csharpminishop\\csharpminishop\\services\\interfaces\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,30 +78,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\SelfLearning\\ProjectPractice\\CSharpMiniShop\\CSharpMiniShop\\CSharpMiniShop\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\SelfLearning\\ProjectPractice\\CSharpMiniShop\\CSharpMiniShop\\CSharpMiniShop\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAADgBAAAAAAAAAAA1wDsBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFUBAAAAAAAAAAA1wGQBAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-01T09:23:25.163Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CartService.cs",
               "DocumentMoniker": "D:\\SelfLearning\\ProjectPractice\\CSharpMiniShop\\CSharpMiniShop\\CSharpMiniShop\\Services\\CartService.cs",
               "RelativeDocumentMoniker": "Services\\CartService.cs",
               "ToolTip": "D:\\SelfLearning\\ProjectPractice\\CSharpMiniShop\\CSharpMiniShop\\CSharpMiniShop\\Services\\CartService.cs",
               "RelativeToolTip": "Services\\CartService.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAQwGkAAABgAAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAqwGEAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-01T10:02:29.279Z",
               "EditorCaption": ""
