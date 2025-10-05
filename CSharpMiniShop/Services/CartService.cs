@@ -95,8 +95,18 @@ namespace CSharpMiniShop.Services
             var removeItem = cartItems.FirstOrDefault(x=>x.product.id == productId);
             if (removeItem != null)
             {
-                cartItems.Remove(removeItem);
-                Console.WriteLine($"\nProduct {removeItem.product.title} removed from cart.");
+                if (removeItem.quantity > 1)
+                {
+                    removeItem.quantity -= 1;
+                    Console.WriteLine($"\nProduct : {removeItem.product.title}, Removed : 1 quantity, Left quantity : {removeItem.quantity}\n");
+                }
+                else
+                {
+                    cartItems.Remove(removeItem);
+                    Console.WriteLine($"\nProduct : {removeItem.product.title}, Removed : 1 quantity, Left quantity : 0\n");
+                }
+
+
             }
             else
             {

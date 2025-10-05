@@ -16,9 +16,9 @@ public class Program
 
         while (true)
         {
-            Console.WriteLine("-----------------Main Menue---------------\n1. View All Products\n2. Seach Product\n3. Filter Products By Category\n4. View Cart\n5. Checkout\n6. Exit\n------------------------------------------\nPlease Select One Option..");
+            Console.WriteLine("-----------------Main Menue---------------\n1. View All Products\n2. Seach Product\n3. Filter Products By Category\n4. View Cart\n5. Remove From Cart\n6. Checkout\n7. Exit\n------------------------------------------\nPlease Select One Option..");
             var option = Console.ReadLine();
-            if (option == "6")
+            if (option == "7")
             {
                 ClearScreen();
                 Console.WriteLine("\n--------Thank you--------\n-----Please Visit Again-----\n\n");
@@ -47,6 +47,11 @@ public class Program
                     }
                     break;
                 case "5":
+                    {
+                        await RemoveFromCart();
+                    }
+                    break;
+                case "6":
                     {
                         await GoForPayment();
                     }
@@ -201,9 +206,11 @@ public class Program
         }
         ClearScreen();
         Console.WriteLine("\n\n-------------Showing Cart Items-------------\n");
+        int count = 1;
         foreach (var item in items)
         {
-            Console.WriteLine($"ID : {item.product.id}\nTitle : {item.product.title} \nPrice :  {item.product.price}\nDescription : {item.product.description}\nCategory : {item.product.category}\nRating : {item.product.rating.rate}\nTotal Quantity : {item.quantity}\n--------------------------------------------------------------------------------------\n");
+            Console.WriteLine($"ID : {count}\nTitle : {item.product.title} \nPrice :  {item.product.price}\nDescription : {item.product.description}\nCategory : {item.product.category}\nRating : {item.product.rating.rate}\nTotal Quantity : {item.quantity}\n--------------------------------------------------------------------------------------\n");
+            count++;
         }
         Console.WriteLine("\n");
     }
@@ -297,5 +304,62 @@ public class Program
     {
         List<CartItem> cItems = await cs.GetCartItems();
         if (cItems.Count == 0) return false; else return true;
+    }
+
+    public static async Task RemoveFromCart()
+    {
+        if (await ItemAvailableInCart())
+        {
+            while (true)
+            {
+                ClearScreen();
+
+                List<CartItem> cartItems = await cs.GetCartItems();
+                if(cartItems.Count != 0)
+                {
+                    //Showing Cart product(s) to Remove
+                    ViewCart();
+                    Console.WriteLine("\n-----------------------------------------------------------\n Enter the ID to remove the Item : ");
+                    int remId = int.Parse(Console.ReadLine());
+                    int cartItemsCount = cartItems.Count;
+                    if (remId <= cartItemsCount && remId >= 1)
+                    {
+                        cs.RemoveProduct(cartItems[remId - 1].product.id);
+                        Console.WriteLine("\nTo Remove More press : Y else : N");
+                        string op = Console.ReadLine();
+                        if (op == "Y" || op == "y")
+                        {
+                            continue;
+                        }
+                        else
+                        {
+                            ClearScreen();
+                            return;
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("\n----Enter a Valid ID----\n");
+                        Console.ReadKey();
+                        ClearScreen();
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("\n----All Items Removed----\n");
+                    Console.ReadKey();
+                    ClearScreen();
+                    return;
+                }
+                
+            }
+        }
+        else
+        {
+            Console.WriteLine("\n****You Havn't Added Anything yet, Please add to Cart First****\n\n");
+            Console.ReadKey();
+            ClearScreen();
+            return;
+        }
     }
 }
